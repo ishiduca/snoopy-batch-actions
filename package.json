@@ -1,0 +1,25 @@
+{
+  "name": "@ishiduca/snoopy-batch-actions",
+  "version": "0.0.1",
+  "description": "apply batched actions in app on \"@ishiduca/snoopy\"",
+  "main": "batch.js",
+  "scripts": {
+    "style:lint": "standard",
+    "test": "tape test.js"
+  },
+  "keywords": [],
+  "author": "ishidua@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "xtend": "^4.0.1"
+  },
+  "standard": {
+    "ignore": [
+      "test.js"
+    ]
+  },
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tape": "^4.10.2"
+  }
+}
